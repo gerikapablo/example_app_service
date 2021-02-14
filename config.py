@@ -4,7 +4,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'helloworld1234g'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'helloworld1234g.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'prueba'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'giuliana'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'Jueves459.'
